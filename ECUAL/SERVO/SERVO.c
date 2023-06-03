@@ -25,8 +25,8 @@ static SERVO_info gs_SERVO_info[SERVO_NUM] = {0};
 
 void SERVO_Init(uint16_t au16_SERVO_Instance)
 {
-	GPIO_InitTypeDef GPIO_InitStruct = {0};
-	TIM_ClockConfigTypeDef sClockSourceConfig = {0};
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+    TIM_ClockConfigTypeDef sClockSourceConfig = {0};
     TIM_MasterConfigTypeDef sMasterConfig = {0};
     TIM_OC_InitTypeDef sConfigOC = {0};
     TIM_HandleTypeDef htim;
